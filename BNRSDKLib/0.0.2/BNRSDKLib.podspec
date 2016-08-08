@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/JustinYangJing/BNRSDK.git" , :commit => "4ee5bda29b6006e399115edcaf3e8fd655e3442a"}
+  s.source       = { :git => "https://github.com/JustinYangJing/BNRSDK.git" , :commit => "0e3e787a42bf9327c33a0f2312528d633856aafd"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -97,6 +97,10 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
     s.subspec 'Utility' do |s2|
       s2.source_files = 'BNRSDKLib/BNRSDKLib/Utility/*.{m,h}'
+    end
+
+    s.subspec 'Category' do |s2|
+        s2.source_files = 'BNRSDKLib/BNRSDKLib/Category/*.{m,h}'
     end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
