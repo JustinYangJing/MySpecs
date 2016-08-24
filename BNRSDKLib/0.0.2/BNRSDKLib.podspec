@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/JustinYangJing/BNRSDK.git" , :commit => "07747bc0b0895231e5a4be15c0aa7b44ed3aadcc"}
+  s.source       = { :git => "https://github.com/JustinYangJing/BNRSDK.git" , :commit => "63b176844552ca57d6a9436a03910f2ce745a69a"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
