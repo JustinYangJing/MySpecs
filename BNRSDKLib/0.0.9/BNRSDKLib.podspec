@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/JustinYangJing/BNRSDK.git" , :commit => "4ff13d88d601d418b9d7e0e722404df93b815450"}
+  s.source       = { :git => "https://github.com/JustinYangJing/BNRSDK.git" , :commit => "ddb4f312e7e0352b9acfe4d6297119e42ea1dc1d"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,16 +91,16 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "BNRSDKLib/*.{h,m}"
+  s.source_files  = "BNRSDKLib/BNRSDKLib/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
     s.subspec 'Utility' do |s2|
-      s2.source_files = 'BNRSDKLib/Utility/*.{m,h}'
+      s2.source_files = 'BNRSDKLib/BNRSDKLib/Utility/*.{m,h}'
     end
 
     s.subspec 'Category' do |s2|
-        s2.source_files = 'BNRSDKLib/Category/*.{m,h}'
+        s2.source_files = 'BNRSDKLib/BNRSDKLib/Category/*.{m,h}'
     end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
